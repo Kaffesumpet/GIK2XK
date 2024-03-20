@@ -7,7 +7,6 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import EditIcon from "@mui/icons-material/Edit";
 import { useTheme } from "@emotion/react";
 
-//import { useNavigate } from "react-router-dom";
 
 function ProductDetail() {
   const theme = useTheme();

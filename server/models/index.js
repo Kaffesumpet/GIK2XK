@@ -54,11 +54,6 @@ db.user.hasMany(db.cart, {
   onDelete: "CASCADE",
 });
 
-/*
-db.product.belongsToMany(db.cart, { through: db.cartRow });
-db.cart.belongsToMany(db.product, { through: db.cartRow });
-*/
-
 db.cart.hasMany(db.cartRow, { 
   foreignKey: 'cartId', 
   allowNull: false
@@ -77,7 +72,6 @@ db.cartRow.belongsTo(db.product, {
   allowNull: false
 });
 
-// En product har flera ratings-betyg
 db.rating.belongsTo(db.product, { foreignKey: { allowNull: false } });
 db.product.hasMany(db.rating, {
   onDelete: "cascade", // Varför behålla ratings på en icke-existerande produkt?
