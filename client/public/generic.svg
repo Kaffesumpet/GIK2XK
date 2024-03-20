@@ -1,0 +1,9 @@
+<svg width="32px" height="32px" viewBox="0 0 64 32" id="icon" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:none;}</style>
+  </defs>
+  <title>letter--GG</title>
+  <path d="M30,46H18a4,4,0,0,1-4-4V18a4,4,0,0,1,4-4h12v4H18V42h8V34H22V30h8Z"/>
+  <path d="M62,46H50a4,4,0,0,1-4-4V18a4,4,0,0,1,4-4h12v4H50V42h8V34H54V30h8Z"/>
+  <rect id="_Transparent_Rectangle_" data-name="<Transparent Rectangle>" class="cls-1" width="32" height="32"/>
+</svg>
