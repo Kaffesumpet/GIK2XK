@@ -188,3 +188,7 @@ function ProductEdit() {
 }
 
 export default ProductEdit;
+
+/** Med tid över hade jag kunnat göra om hela edit att bestå av flera component delar,
+ *  men med tidsbrist antog jag att att följa din lösning var godkänt 
+ */
